@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cod2</title>
+</head>
+<body style="background-color:rgb(5,1, 30.9, 67.9); color:white;"><center>
+    <div id="header">
+        <!-- Cabeçalho começa aqui-->
+        <h1>Chelsea</h1>
+        <img src="https://logodownload.org/wp-content/uploads/2017/02/chelsea-fc-logo-0.png" alt="Chelsea" width="200px"><br>
+        <!--Cabeçalho acaba aqui-->
+    </div>
+
+    <div>
+    Qual é o seu nome?<br><br><input type="text" id="nome" style="border: 10px;">
+    <button onclick="mostrar_nome()" style="border: 10px;">Dizer oi</button>
+    </div>
+</body>
+</html>
+
+<script>
+    function mostrar_nome(){
+        alert(`Oi ${nome.value}`)
+    }
+</script>
